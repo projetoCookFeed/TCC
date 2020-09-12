@@ -32,7 +32,7 @@ https://github.com/projetoEatMe/TCC
  - [ ] item de requisito funcional 5
  - [ ] item de requisito funcional 5
  - [ ] item de requisito funcional 5
- - [ ] estória do usuário 1
+ - [ ] estória do usuário 1 será?
   
 #### 2.3 - NÃO FUNCIONAL [opcional]
  - [ ] Os dados poderão ser salvos localmente e sincronizados com a nuvem
