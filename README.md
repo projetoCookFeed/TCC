@@ -3,8 +3,11 @@
 ### 1. APRESENTAÇÃO
 CookFeed é um jogo de simulação para o usuário aprender a cozinhar de uma maneira divertida enquanto prepara receitas reais através do aplicativo.
 
-### 1.1 Perfil do Git
+### 1.1 PERFIL DO GIT
 https://github.com/projetoEatMe/TCC
+
+### 1.2 DIAGRAMA DE CASO DE USO
+https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=TCC_1.0#R7VnbdqIwFP0aHtvFTcRHL7Xz0JllV%2BdiHyOcQmaAMCFWna%2BfIAkQ0NZp1dapL5pzSHaSk52dE9CsYby8pigNPxMfIs3U%2FaVmjTTTdB2X%2F%2BaOVeGwXbNwBBT7hcuoHHf4DwinLrxz7EOmVGSERAynqtMjSQIeU3yIUrJQqz2QSO01RQG0HHceitreH9hnoZiW2a38nwAHoezZcHrFkxjJymImWYh8sqi5rCvNGlJCWFGKl0OI8tjJuBTtxluelgOjkLBdGjzQqXHz8za%2B%2BGbfEn0y%2Fzp1vlzYBcojiuZiwprpRBxv8EA4LB81W4lQOL%2Fn%2BVAHj0AZ5gG6QBEOEs3q530kIVDMqkq8FIj%2FM9oZ7Qm0ISG%2FxgC%2BRJ3RWj8oTnkhmWX5n3Gpy0qc5UXv6ojesdtUImVyMUjz4jyOxhTFvDhYhJjBXYq83L%2FgYsp9IYsjbhklRH27CwXIow3Lmkts%2F2sgMTC64lXEU1tIk5DinhCmRaVrnZ4ADWuaZkktRkJLgxK5khteEIrzD%2BrTOavPntC%2BZXNtaGl9g2LyVkTue4zQ2sBv0AyiCckww4SPfzQjjJG4VqFfTGzEyP65bui6Qnaz22a7pbfJ7hyK63ITKWRvBBMSv5%2FnLNzyIpRl2FPjAkvMprysX3aEda9Yo3zyujRWNWPCacPnAVT6Ej6nad2oIeVmBbW2JNbWlcnInHrw%2FF5niAbAnoqTyKzAVxKz9kLXZWvDQkofhQgx%2FKimc5tWV%2FQwIXi9IQWPrF6DR26DIMXERat6%2BtUAMm37sqNAWXoDqohNC2pNt3Lir2CgeWbgTgx0PgoDjWMz0Dof%2BB8DrUjco7YFS8Y1JiudaoP3nrbXlLCZxJTZTU1CSQr80cBHWQi%2BVNBEvuVwt%2BqpVNotaloqZyWW94pW7ls5pSLu7%2FB%2BrSbqLSmzX6iKbahWDnhoVXROShWHiPOZUURfuZd4ZHCaHefmu%2BHoM9v3gZJD9VO8e7ALQfeklr3vQZbliz6%2BIcGJL77pdN568d2TWvzvPG03dQ%2Bx4iVDRALCbR%2FWSu4BZig7IULYHf290aG3v6uZLO90MTv6JUyq3vOphPt%2F3sJsuwFkHTfbkMw6EeWZUOA0y88bqTQnLDRvn3SYmz747ecd0IvuLMbhhMbdUWhkBM5Cs6vQcLP6bF1Ur779W1d%2FAQ%3D%3D
 
 ### 2. EQUIPE 
 |Nome|Papel|
@@ -40,3 +43,8 @@ https://github.com/projetoEatMe/TCC
  - [ ] O aplicativo deverá ter uma interface agradável e simples
  - [ ] O aplicativo deverá ter um personagem que agirá como um tutor
  - [ ] O aplicativo deverá funcionar sem conexão com a internet
+ - [ ] O aplicativo terá diversos níveis de receitas
+ - [ ] Os dados do aplicativo podem ser acessados 24/7
+ - [ ] O aplicativo deverá ter uma navegação fluída
+ - [ ] O aplicativo deverá ter um bom desempenho
+ - [ ] O aplicativo deverá ser o mais leve possível
