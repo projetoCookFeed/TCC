@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color: white;
+    }
+    
+.div1{
+    background-color:  #FF333B;
+    text-align: left;
+    }
+
+.div2{
+    position: relative;
+    background-color: #FF333B;
+    text-align: left;
+}
+#btn{
+   
+    border: 1;     
+    line-height: 2.5;     
+    padding: 0 20px;     
+    font-size: 1rem;     
+    text-align: center; 
+    background-color: black;    
+    color: #fff;   
+    border-color: #2F678F ;  
+    border-radius: 10px;
+
+
+    }
+    
+    .texto{
+        align-items: center;
+        width: 300px ;
+        height: 200px;
+        font-family: Roboto;
+    }
+
+
+
+ 
+
+    

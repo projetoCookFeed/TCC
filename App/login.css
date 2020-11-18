@@ -1,0 +1,47 @@
+
+body{
+    background-color: black;
+}
+
+.f{
+    color: white;
+}
+
+.c{
+    color: white;
+    position: relative;
+    margin-top: -50px;
+    font-size: 30pt;
+}
+
+.div01{
+    margin-top: 50px;
+    margin-bottom: 75px;
+        
+}
+
+.vermelho{
+    color: #E04C49;
+}
+
+.azul{
+    color: #4BA1DE;
+}
+
+.div02{
+    border: 3px solid #2F678F;
+    box-sizing: border-box;
+    border-radius: 100px;
+    width: 75px;
+    height: 75px;
+    margin-left: calc(50% - 37px);
+}
+
+.div03{
+    padding-top: 13px;
+
+}
+
+.div0{
+    text-align: center;
+}
