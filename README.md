@@ -12,6 +12,9 @@ https://viewer.diagrams.net/?highlight=0000ff&edit=_blank&layers=1&nav=1&title=T
 ### 1.3 DIAGRAMA DE CLASSE
 https://app.diagrams.net/#G1uCZPHENvdqcDfc--mkWl5wGv_htToOUp
 
+### 1.4 Protótipo
+https://www.figma.com/proto/6yPcitYaL8EnooLTPIVDqt/CookFeed?node-id=1%3A2&scaling=scale-down
+
 ### 2. EQUIPE 
 |Nome|Papel|
 |--|--|
