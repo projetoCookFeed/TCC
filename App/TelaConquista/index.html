@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <script src="script.js"></script>
+    <title>Tela</title>
+</head>
+<body onload="carregar()">
+    <div id="top">
+        <table>
+            <tr>
+                <td>
+                    <button id="btn" onclick="window.location='../TelaInicial/index.html'"> <img src="imagens/seta.png" alt="" srcset=""></button>
+                </td>
+                 <td id="con">
+                <h2>Suas Conquistas</h2>
+                </td> 
+            </tr>
+        </table>
+    </div>
+    <br><br>
+        <center>
+            <table class="tab"  >
+                <tr id="resul">
+                    <td><h4>RECEITA</h4></td>
+                    <td>
+                        <h4>STATUS</h4>
+                    </td>
+                </tr>
+                <div id="result">
+                <tr>
+                    <td>Macarrão <br> Instantâneo</td><td>
+                        <label id="campo1">
+                            Não concluído
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rãmen</td>
+                    <td>
+                        <label id="campo2">
+                            Não concluído
+                        </label>
+                    </td>
+                </tr>
+                <tr>                    
+                    <td>Lasanha</td>
+                    <td>
+                        <label id="campo3">
+                            Não concluído
+                        </label>
+                    </td>
+                </tr>
+            </table>
+        </center>
+        <br><br>
+        <button id="btnExcluir" onclick="excluir()">Excluir Histórico</button>
+    </div>
+    <script>
+        var db = openDatabase("DataBase", "1.0", "TestDataBase", 200000);
+        db.transaction(function(tx) {
+            tx.executeSql('CREATE TABLE IF NOT EXISTS TestTable (id PRIMARY KEY, data)');
+        });
+
+        function carregar() {
+                db.transaction(function(tx){
+                    nome = 'miojo';
+                    tx.executeSql('SELECT * FROM TestTable WHERE id = ?', [nome], function(tx, result) {
+                        var rows = result.rows[0];
+                        document.getElementById("campo1").innerText = rows.data;
+                    });
+                });
+                db.transaction(function(tx){
+                    nome = 'salmao';
+                    tx.executeSql('SELECT * FROM TestTable WHERE id = ?', [nome], function(tx, result) {
+                        var rows = result.rows[0];
+                        document.getElementById("campo2").innerText = rows.data;
+                    });
+                });
+                db.transaction(function(tx){
+                    nome = 'picole';
+                    tx.executeSql('SELECT * FROM TestTable WHERE id = ?', [nome], function(tx, result) {
+                        var rows = result.rows[0];
+                        document.getElementById("campo3").innerText = rows.data;
+                    });
+                });
+        };
+
+        function excluir(){
+            db.transaction(function(tx){
+                tx.executeSql('DROP TABLE TestTable');
+                document.getElementById("btnExcluir").innerHTML = "Histórico Excluído"
+            })
+                window.location.reload();
+        };
+    </script>
+</body>
+</html>

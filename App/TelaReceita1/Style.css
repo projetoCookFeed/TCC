@@ -1,0 +1,61 @@
+body{
+    background-color: #2B2B2B;
+    color: white;
+    margin: 0px;  
+}
+.div1{
+    text-align: left;
+    height: 215px;
+    width: 100%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    }
+
+.div2{
+    position: relative;
+    text-align: left;
+}
+#btn{
+    border: 1;     
+    line-height: 2.5;     
+    padding: 0 20px;     
+    font-size: 1rem;     
+    text-align: center;    
+    color: #fff;   
+    border-radius: 5px;
+    }
+    
+    .texto{
+    align-items: justify;
+    margin-left: calc(50% - 150px);
+    width: 300px ;
+    height: 200px;
+    font-family: Roboto;
+    }
+
+    .tabela{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 340px;
+    }
+
+    .tabela tr{
+    width: 100%;
+    }
+
+    .tabela tr td{
+    width: 50%;
+        }
+
+    .container{
+     display: inline-block;
+
+        }
+
+button {
+    background: #EDC5BD;
+    color: white;
+    border: none;
+    text-decoration: none;
+}

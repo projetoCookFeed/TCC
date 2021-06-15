@@ -1,0 +1,86 @@
+body {
+    background-color: #2B2B2B;
+    /*background-color: #14272B;*/
+    color: white;
+}
+header div {
+    display: inline-block;
+}
+header {
+    border-bottom: 1px solid white;
+    height: 50px;
+}
+header .logo img{
+    width: 50px;
+}
+.cook {
+    color: #84CAE8;
+    font-weight: bold;
+    vertical-align: middle;
+    height: 50px;
+    font-size: 17pt;
+}
+.feed {
+    vertical-align: middle;
+    font-weight: bold;
+    height: 50px;
+    font-size: 17pt;
+}
+header .conquistas img{
+    height: 34px;
+    padding: 13px;
+}
+header .conquistas {
+    position: absolute;
+    right: 0;
+}
+
+section {
+    padding: 15px;
+    font-size: 15pt;
+}
+
+section .receitas {
+    margin-bottom: 12px;
+}
+
+section .receita {
+    height: 145px;
+    background-color: white;
+    border-radius: 7px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    padding: 2px;
+    display: inline-block;
+}
+
+section .receita .imagem {
+    height: 110px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+section .receita .imagem img {
+    width: 100%;
+    margin-top: -60px;
+}
+
+section .receita .nome {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 10pt;
+    color: black;
+    float: left;
+}
+
+section .receita .descricao {
+    margin-top: 6px;
+    margin-left: calc(100% - 95px);
+    font-size: 10pt;
+    height: 20px;
+    padding-top: 6px;
+    width: 85px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: #84CAE8;
+}
