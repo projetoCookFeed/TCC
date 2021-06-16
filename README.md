@@ -1,7 +1,10 @@
 <p align="center"><img src="https://media.discordapp.net/attachments/776530696495169608/854512150331260968/CookFeed.PNG?width=444&height=387"></p>
 
-<p align="center">
-  ![GitHub last commit](https://img.shields.io/github/last-commit/projetoCookFeed/TCC)
+<p align="center">  
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/projetoCookFeed/TCC">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/projetoCookFeed/TCC">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/projetoCookFeed/TCC">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/projetoCookFeed/TCC">
 </p>
 
 ### 1. APRESENTAÇÃO
