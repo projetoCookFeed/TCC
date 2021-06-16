@@ -1,6 +1,5 @@
 <p align="center"><img src="https://media.discordapp.net/attachments/776530696495169608/854512150331260968/CookFeed.PNG?width=444&height=387"></p>
 
-https://img.shields.io/appveyor/build/projetoCookFeed/TCC
 
 ### 1. APRESENTAÇÃO
 CookFeed é um app gamificado para o usuário se divertir enquanto aprende a cozinhar e a se alimentar de maneira saudável.
@@ -67,4 +66,4 @@ https://www.figma.com/proto/6yPcitYaL8EnooLTPIVDqt/CookFeed?node-id=1%3A2&scalin
  
  Enfim, no fim do semestre, fomos capazes de finalizar o nosso TCC. O produto final não foi o que idealizamos, mas nos orgulhamos do resultado mesmo assim. Foi uma experiência que integrou muito ao nosso conhecimento e experiência como desenvolvedores.
 
- Você pode visualizar nosso código, fazer o download do código em um arquivo compactado e do apk na pasta *App*. Você pode visualizar nossa apresentação na pasta *Apresentação*.
+ Você pode visualizar nosso código, fazer o download do código em um arquivo compactado e do apk na pasta *App*. Você pode visualizar nossa apresentação no arquivo *Apresentação Projeto Integrado II*.
