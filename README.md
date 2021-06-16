@@ -38,11 +38,11 @@ https://www.figma.com/proto/6yPcitYaL8EnooLTPIVDqt/CookFeed?node-id=1%3A2&scalin
 - [Pedro Santana](https://github.com/PedroSantana33).
 
 
-### 2. ESPECIFICAÇÃO 
-#### 2.1 - PERSONA 
+### 3. ESPECIFICAÇÃO 
+#### 3.1 - PERSONA 
 - Usuário: alguém que não tenha experiência cozinhando, de uma faixa etária jovem (12 - 19). Durante esse período o indivíduo passa a se tornar independente, portanto, precisa saber preparar sua própria comida.
 
-#### 2.2 - REQUISITOS FUNCIONAIS
+#### 3.2 - REQUISITOS FUNCIONAIS
  - [ ] O aplicativo salva o histórico de receitas
  - [ ] Ao selecionar um prato o sistema disponibiliza um botão para cancelamento do preparo do prato;
  - [ ] Na tela inicial o usuário poderá escolher um prato para preparar
@@ -52,7 +52,7 @@ https://www.figma.com/proto/6yPcitYaL8EnooLTPIVDqt/CookFeed?node-id=1%3A2&scalin
  - [ ] O sistema deverá avisar ao usuário quando ocorrer a conclusão da receita
  - [ ] O aplicativo deverá sempre possuir a opção de voltar na tela
   
-#### 2.3 - REQUISITOS NÃO FUNCIONAIS
+#### 3.3 - REQUISITOS NÃO FUNCIONAIS
  - [ ] O aplicativo deverá ter uma interface agradável e simples
  - [ ] O aplicativo deverá funcionar sem conexão com a internet
  - [ ] O aplicativo terá diferentes níveis de receitas
