@@ -1,5 +1,8 @@
 <p align="center"><img src="https://media.discordapp.net/attachments/776530696495169608/854512150331260968/CookFeed.PNG?width=444&height=387"></p>
 
+<p align="center">
+  ![GitHub last commit](https://img.shields.io/github/last-commit/projetoCookFeed/TCC)
+</p>
 
 ### 1. APRESENTAÇÃO
 CookFeed é um app gamificado para o usuário se divertir enquanto aprende a cozinhar e a se alimentar de maneira saudável.
