@@ -23,7 +23,7 @@ droppableElements.forEach(elem => {
 // Evento dispara no alvo arrastável
 
 function dragStart(event) {
-  event.dataTransfer.setData("text", event.target.id); 
+  event.dataTransfer.setData("text", event.target.id);
 }
 
 // Evento dispara no alvo arrastável
@@ -62,13 +62,13 @@ function drop(event) {
     console.log(correto);
     correto = correto + 1;
   }
-  if (correto === 3){
+  if (correto === 6){
     alerta();
 
-      var nome = 'miojo';
+      var nome = 'salmao';
       var estado = 'Concluido';
 
-      db.transaction(function(tx){ // Aqui o sistema atribui os valores do nome e estado aos atributos id e data da tabela TestTable e salva os dados
+      db.transaction(function(tx){
           tx.executeSql('INSERT INTO TestTable (id, data) VALUES(?, ?)', [nome, estado]);
       })
 
@@ -76,7 +76,7 @@ function drop(event) {
   }
 }
 
-function alerta(){
+function alerta(){ // Aqui o sistema atribui os valores do nome e estado aos atributos id e data da tabela TestTable e salva os dados
   alert("Receita concluida com sucesso!");
 }
 

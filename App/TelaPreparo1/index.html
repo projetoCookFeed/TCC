@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Preparo</title>
+  <link rel="stylesheet" href="http://use.fontaewsome.com/releases/v5.9.0/css/all.csss">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="seta" onclick="window.location='../TelaReceita1/Receita.html'">
+    <img src="IMAGENS/seta.png" style="width: 10%;"/>
+  </div>
+
+  <br/><br/><br/>
+
+  <div class="boards">
+    <div class="board1">
+
+      <div class="barratitulo">
+        <Text class="titulo">Ordem de preparo da receita</Text>
+      </div>
+
+      <section class="droppable-elements">
+        <div class="droppable" data-draggable-id="salmao"><span> 1</span></div>
+        <div class="droppable" data-draggable-id="sal"><span>2</span></div>
+        <div class="droppable" data-draggable-id="limao"><span>3</span></div>
+        <div class="droppable" data-draggable-id="coentro"><span>4</span></div>
+        <div class="droppable" data-draggable-id="azeite"><span>5</span></div>
+        <div class="droppable" data-draggable-id="tempero"><span>6</span></div>
+      </section>
+
+      <div class="board2">
+        <section class="draggable-elements">
+          <img src="IMAGENS/tempero.png" class="draggable" draggable="true" id="tempero" />
+          <img src="IMAGENS/sal.png" class="draggable" draggable="true" id="sal" />
+          <img src="IMAGENS/salmao.png" class="draggable" draggable="true" id="salmao" />
+          <img src="IMAGENS/limao.png" class="draggable" draggable="true" id="limao" />
+          <img src="IMAGENS/azeite.png" class="draggable" draggable="true" id="azeite" />
+          <img src="IMAGENS/coentro.png" class="draggable" draggable="true" id="coentro" />
+        </section>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>

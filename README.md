@@ -11,13 +11,13 @@
 CookFeed é um app gamificado para o usuário se divertir enquanto aprende a cozinhar e a se alimentar de maneira saudável.
 
 #### 1.1 DIAGRAMA DE CASO DE USO
-https://bityli.com/kGn5M
+https://bit.ly/2S37WFT
 
 #### 1.2 DIAGRAMA DE CLASSE
-https://app.diagrams.net/#G1uCZPHENvdqcDfc--mkWl5wGv_htToOUp
+https://bit.ly/3xp6v3u
 
 #### 1.3 Protótipo
-https://www.figma.com/proto/6yPcitYaL8EnooLTPIVDqt/CookFeed?node-id=1%3A2&scaling=scale-down
+https://bit.ly/3gwyjgX
 
 ### 2. EQUIPE 
 

@@ -62,10 +62,10 @@ function drop(event) {
     console.log(correto);
     correto = correto + 1;
   }
-  if (correto === 3){
+  if (correto === 2){
     alerta();
 
-      var nome = 'miojo';
+      var nome = 'picole';
       var estado = 'Concluido';
 
       db.transaction(function(tx){ // Aqui o sistema atribui os valores do nome e estado aos atributos id e data da tabela TestTable e salva os dados

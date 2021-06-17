@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Preparo</title>
+  <link rel="stylesheet" href="http://use.fontaewsome.com/releases/v5.9.0/css/all.csss">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="seta" onclick="window.location='../TelaReceita2/Receita.html'">
+    <img src="IMAGENS/seta.png" style="width: 10%;"/>
+  </div>
+
+  <br/><br/><br/>
+
+  <div class="boards">
+    <div class="board1">
+
+      <div class="barratitulo">
+        <Text class="titulo">Ordem de preparo da receita</Text>
+      </div>
+
+      <section class="droppable-elements">
+        <div class="droppable" data-draggable-id="frutinha"><span> 1</span></div>
+        <div class="droppable" data-draggable-id="laranja"><span>2</span></div>
+      </section>
+
+      <div class="board2">
+        <section class="draggable-elements">
+          <img src="IMAGENS/laranja.png" class="draggable" draggable="true" id="laranja" />
+          <img src="IMAGENS/frutinha.png" class="draggable" draggable="true" id="frutinha" />
+        </section>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
