@@ -32,7 +32,7 @@ https://bit.ly/3gwyjgX
 |Pedro Guilherme Santana Corrêa|dev|
 
 
-### 2.2 PERFIS DO GIT
+### 2.2 PERFIS NO GITHUB
 - [Charles](https://github.com/CharlesPierre);
 - [Gabriel](https://github.com/GabrieldeSouza-web);
 - [Lucas](https://github.com/LucasUNSP);
