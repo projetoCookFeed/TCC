@@ -16,7 +16,7 @@ https://bit.ly/2S37WFT
 #### 1.2 DIAGRAMA DE CLASSE
 https://bit.ly/3xp6v3u
 
-#### 1.3 Protótipo
+#### 1.3 PROTÓTIPO
 https://bit.ly/3gwyjgX
 
 ### 2. EQUIPE 
